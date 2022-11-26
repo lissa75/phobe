@@ -127,7 +127,7 @@ body {
 
     min-height: 241px;
     align-items: center;
-    justify-content: center;
+
 }
 
 .conteiner {
@@ -280,6 +280,7 @@ body {
     }
 
     .header__logo {
+
         margin: 0px 120px 0px 0px;
     }
 
@@ -438,7 +439,7 @@ body {
     font-family: 'Museo Sans Cyrl';
     font-weight: 600;
     font-size: 63px;
-    line-height: 63/76*100% ;
+    line-height: 63/76*100%;
     text-transform: uppercase;
     margin: 0px 0px 39px 0px;
 
@@ -521,7 +522,7 @@ body {
     box-shadow: 0px 37px 24px -27px rgba(0, 0, 0, 0.16), 0px 3px 0px #9A6E30;
     border-radius: 14px;
     padding: 34px 27px;
-   margin: 0px 30px 0px 0px;
+    margin: 0px 30px 0px 0px;
 }
 
 
@@ -606,9 +607,8 @@ body {
 
 
 @media(max-width:1920px) {
-    .main-page__conteiner {
-        max-width: 1180px;
-    }
+
+
 
     .main-page__img-man1 img {
         right: 130px;
@@ -644,24 +644,51 @@ body {
     .main__main-page {
         padding: 190px 0px 0px 0px;
     }
-}
 
-@media(max-width:1170px) {
-    .main-page__image img{
-       max-width: 80px;
-       max-height: 80px;
+    .main-page__image img {
+        max-width: 80px;
+        max-height: 80px;
     }
-    .main-page__img-background img{
+
+    .main-page__img-background img {
         max-width: 60px;
         max-height: 60px;
     }
+
     .main-page__img-man1 img {
         max-width: 470px;
     }
+
     .main-page__img-man2 img {
-       
+
         max-width: 460px;
     }
+
+    .main-page__img-man3 img {
+        max-width: 330px;
+    }
+}
+
+@media(max-width:1170px) {
+    .main-page__image img {
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .main-page__img-background img {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .main-page__img-man1 img {
+        max-width: 470px;
+    }
+
+    .main-page__img-man2 img {
+
+        max-width: 460px;
+    }
+
     .main-page__img-man3 img {
         max-width: 330px;
     }
@@ -684,16 +711,19 @@ body {
     .main_page__btn-body {
         padding-bottom: 500px;
     }
+
     .main-page__img-man1 img {
         max-width: 370px;
-        right: 420px;  
+        right: 420px;
     }
+
     .main-page__img-man2 img {
         right: 120px;
         max-width: 360px;
     }
+
     .main-page__img-man3 img {
-       
+
         right: 0;
         max-width: 250px;
     }
@@ -703,30 +733,34 @@ body {
     .main-page__title {
         font-size: 30px;
     }
+
     .main-page__img-man1 img {
         max-width: 300px;
-        right:200px; 
+        right: 200px;
     }
 
     .main-page__img-man2 img {
-        right:70px;
+        right: 70px;
         max-width: 300px;
     }
 
     .main-page__img-man3 img {
-        max-width: 200px;    
+        max-width: 200px;
     }
-    .main_page__btn-body{
+
+    .main_page__btn-body {
         justify-content: center;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     }
-   
+
 }
-@media(max-width:710px){
-    .main-page__button_orange{
+
+@media(max-width:710px) {
+    .main-page__button_orange {
         margin: 0px 0px 30px 0px;
-    
+
     }
+
     .main_page__btn-body {
         padding-bottom: 450px;
 
@@ -737,26 +771,185 @@ body {
     .main__main-page {
         padding: 100px 0px 0px 0px;
     }
+
     .main-page__title {
         font-size: 24px;
     }
+
     .main-page__img-man1 img {
         max-width: 300px;
-        right:60px; 
+        right: 60px;
     }
 
     .main-page__img-man2 img {
-        right:-40px;
+        right: -40px;
         max-width: 300px;
     }
 
     .main-page__img-man3 img {
-        right:-40px;
-        max-width: 200px;    
+        right: -40px;
+        max-width: 200px;
     }
 }
 
+.main__page-cards {}
 
+.page-cards {
+    padding: 190px 0px 0px 0px;
+}
+
+.page-cards__conteiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner {}
+
+.page-cards__body-text {}
+
+.page-cards__title {}
+
+.title {
+    font-family: 'Museo Sans Cyrl';
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 52/62*100%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.page-cards__textblock {
+    margin: 0px 0px 45px 0px;
+}
+
+.textblock {
+    padding: 40px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40/49*100%;
+    text-align: center;
+}
+
+.page-cards__cards {
+    display: flex;
+    margin: 0px -15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page-cards__card {
+    margin: 0px 15px 44px 15px;
+    flex: 0 0 23%;
+    padding: 37px 58px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(117.15deg, #F1EFEF -2.48%, #FFFFFF 144.57%);
+    box-shadow: 0px 35px 53px -41px rgba(0, 0, 0, 0.19);
+    border-radius: 19px;
+}
+
+
+.page-cards__item {
+    text-align: center;
+}
+
+.page-cards__card-image {}
+
+.page-cards__cards-text {
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 27/33*100%;
+    margin: 28px 0px 16px 0px;
+
+
+}
+
+.page-cards__button {
+    padding: 18px 27px;
+    background: linear-gradient(80.7deg, #EA9129 19.51%, #FFBB54 96.3%);
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 31/38*100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.page-cards__button a {
+    color: #fff;
+}
+
+.page-cards__button_blue {
+    background: linear-gradient(70.24deg, #118CE1 39.08%, #37AAFF 92.34%);
+}
+
+@media(max-width:1920px) {
+
+    .title {
+        font-size: 40px;
+    }
+
+    .textblock {
+        font-size: 30px;
+    }
+
+    .page-cards__button {
+        font-size: 18px;
+    }
+
+    .page-cards__cards-text {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:1170px) {
+    .page-cards__card {
+        flex: 0 0 40%;
+    }
+}
+
+@media(max-width:768px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .textblock {
+        font-size: 20px;
+    }
+
+    .page-cards__cards {
+        margin: 0px;
+    }
+
+    .page-cards__card {
+        flex: 0 0 100%;
+        margin: 0px 15px 30px 15px;
+    }
+}
+
+@media(max-width:480px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .page-cards__cards-text {
+        font-size: 16px;
+    }
+
+    .page-cards__button {
+        max-width: 200px;
+        font-size: 14px;
+
+    }
+
+    .page-cards__item {
+        padding: 0px;
+    }
+
+}
 
 /* ---------------------------------------------FOOOTER------------------------------------------------- */
 .footer {}
